@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-01-22T18:52:30-0500 ###
+### Footprint positions - created on 2025-01-23T15:50:32-0500 ###
 ### Printed by KiCad version 8.0.7
 ## Unit = mm, Angle = deg.
 ## Side : All
@@ -10,6 +10,7 @@ C3        10uF                        CP_Radial_D5.0mm_P2.50mm                  
 C4        10uF                        CP_Radial_D5.0mm_P2.50mm                             40.1560    70.9152  -90.0000  top
 D1        LED_Small_ALT               LED_D5.0mm                                           80.4040    46.0610    0.0000  top
 D2        LED_Small_ALT               LED_D5.0mm                                           46.7560    61.0470    0.0000  top
+D3        TVS                         D_DO-15_P12.70mm_Horizontal                          41.3468    80.5646    0.0000  top
 J1        PJ-644F                     Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal              17.5010    81.2060  180.0000  top
 J2        Conn_01x06                  PinHeader_1x06_P2.54mm_Vertical                      28.0230    95.2500    0.0000  top
 J3        PJ-644F                     Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal              78.1570    97.4360    0.0000  top

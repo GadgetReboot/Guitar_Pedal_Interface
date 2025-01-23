@@ -1186,6 +1186,139 @@
 				)
 			)
 		)
+		(symbol "Diode:1.5KExxA"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.5KExxA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1500W unidirectional TVS diode, DO-201AE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D?DO?201AE*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1.5KExxA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1.5KExxA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "GR_OpAmp_Percussion-rescue:CP1_Small-Device"
 			(pin_numbers hide)
 			(pin_names
@@ -3447,7 +3580,7 @@
 		(uuid "c092ac6b-c286-4494-ba22-6433344159ff")
 	)
 	(junction
-		(at 46.99 168.91)
+		(at 39.37 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c42c2fd2-8b86-45cb-b424-63f9ad0648a4")
@@ -3463,6 +3596,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbcb5866-3542-46a3-9d17-7b4fdae37f62")
+	)
+	(junction
+		(at 54.61 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbc95fbf-6785-4bb4-9569-0d4a1f3c0183")
 	)
 	(junction
 		(at 105.41 168.91)
@@ -3554,7 +3693,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 173.99) (xy 46.99 168.91)
+			(xy 54.61 173.99) (xy 54.61 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3754,7 +3893,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 181.61) (xy 46.99 179.07)
+			(xy 54.61 181.61) (xy 54.61 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4084,6 +4223,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 168.91) (xy 54.61 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67aa6a1b-f5a7-46c0-ad88-e1b3dda603e2")
+	)
+	(wire
+		(pts
 			(xy 180.34 129.54) (xy 165.1 129.54)
 		)
 		(stroke
@@ -4184,7 +4333,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 168.91) (xy 46.99 160.02)
+			(xy 39.37 168.91) (xy 39.37 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4201,16 +4350,6 @@
 			(type default)
 		)
 		(uuid "7f6eef0c-40b7-4a5e-a01b-64347464020b")
-	)
-	(wire
-		(pts
-			(xy 46.99 168.91) (xy 62.23 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81833d2d-8646-46a3-83bb-93e12fc0f145")
 	)
 	(wire
 		(pts
@@ -4324,6 +4463,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 180.34) (xy 39.37 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9315cfcc-4c87-4b0e-a15d-eb99c02b5376")
+	)
+	(wire
+		(pts
 			(xy 109.22 25.4) (xy 116.84 25.4)
 		)
 		(stroke
@@ -4384,6 +4533,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 168.91) (xy 39.37 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c077a30-1ccb-4270-96ea-4ebee83d0ce8")
+	)
+	(wire
+		(pts
 			(xy 236.22 102.87) (xy 236.22 105.41)
 		)
 		(stroke
@@ -4401,6 +4560,16 @@
 			(type default)
 		)
 		(uuid "a4a379dd-6560-4927-81a9-720261a9ac7d")
+	)
+	(wire
+		(pts
+			(xy 54.61 168.91) (xy 62.23 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66203aa-251f-456b-a056-6134f19e85dd")
 	)
 	(wire
 		(pts
@@ -4794,7 +4963,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 168.91) (xy 46.99 168.91)
+			(xy 33.02 168.91) (xy 39.37 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5017,7 +5186,7 @@
 	)
 	(text "+9v"
 		(exclude_from_sim no)
-		(at 45.72 156.21 0)
+		(at 37.084 156.718 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5323,6 +5492,17 @@
 		)
 		(uuid "d33455cc-be54-4d2e-8ddf-fedfc5006f75")
 	)
+	(text "Optional \nV Spike\nProtection"
+		(exclude_from_sim no)
+		(at 41.402 184.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7b2663d-523f-42dc-bea9-2cb1ab823cdc")
+	)
 	(text "Tip_n"
 		(exclude_from_sim no)
 		(at 229.362 89.789 0)
@@ -5435,7 +5615,7 @@
 	)
 	(symbol
 		(lib_id "Guitar_Fx_Dev-rescue:CP1_Small-Device")
-		(at 46.99 176.53 0)
+		(at 54.61 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5443,7 +5623,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006342f4ee")
 		(property "Reference" "C3"
-			(at 50.673 176.276 0)
+			(at 58.293 176.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5631,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 51.435 178.435 0)
+			(at 59.055 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5639,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 46.99 176.53 0)
+			(at 54.61 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 176.53 0)
+			(at 54.61 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 176.53 0)
+			(at 54.61 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5682,7 @@
 	)
 	(symbol
 		(lib_id "Guitar_Fx_Dev-rescue:VCC-power")
-		(at 46.99 160.02 0)
+		(at 39.37 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5510,7 +5690,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063431540")
 		(property "Reference" "#PWR06"
-			(at 46.99 163.83 0)
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +5699,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 47.4218 155.6258 0)
+			(at 39.8018 155.6258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 160.02 0)
+			(at 39.37 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 160.02 0)
+			(at 39.37 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5726,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 160.02 0)
+			(at 39.37 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5748,7 @@
 	)
 	(symbol
 		(lib_id "Guitar_Fx_Dev-rescue:GNDREF-power")
-		(at 46.99 181.61 0)
+		(at 54.61 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5576,7 +5756,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006343515b")
 		(property "Reference" "#PWR017"
-			(at 46.99 187.96 0)
+			(at 54.61 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5765,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 47.117 186.0042 0)
+			(at 54.737 186.0042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 181.61 0)
+			(at 54.61 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 181.61 0)
+			(at 54.61 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 181.61 0)
+			(at 54.61 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,6 +6272,72 @@
 			(project "Guitar_Fx_Dev"
 				(path "/1b077fc9-b8d8-443a-8fee-1b5107551db8"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Guitar_Fx_Dev-rescue:GNDREF-power")
+		(at 39.37 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08ff1c62-22fb-4ad7-b00b-0abe474d27f8")
+		(property "Reference" "#PWR019"
+			(at 39.37 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 39.497 186.0042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c5d3511-6b3d-42ba-bb5f-68fc78f17e2c")
+		)
+		(instances
+			(project "Guitar_Fx_Dev"
+				(path "/1b077fc9-b8d8-443a-8fee-1b5107551db8"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6955,6 +7201,75 @@
 			(project "Guitar_Fx_Dev"
 				(path "/1b077fc9-b8d8-443a-8fee-1b5107551db8"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1.5KExxA")
+		(at 39.37 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34a86036-017d-448c-99a2-71ebf12a6688")
+		(property "Reference" "D3"
+			(at 41.91 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 41.656 177.2919 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P12.70mm_Horizontal"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1500W unidirectional TVS diode, DO-201AE"
+			(at 39.37 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "550572d1-0334-4ad8-b77e-5c4cf15dca6a")
+		)
+		(pin "2"
+			(uuid "cf7a94cb-d801-41c8-805f-8a34de26ed4a")
+		)
+		(instances
+			(project ""
+				(path "/1b077fc9-b8d8-443a-8fee-1b5107551db8"
+					(reference "D3")
 					(unit 1)
 				)
 			)
