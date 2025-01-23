@@ -1,0 +1,236 @@
+(footprint "Potentiometer_Vimex"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Omeg PC16BU, http://www.omeg.co.uk/pc6bubrc.htm")
+	(tags "Potentiometer vertical Omeg PC16BU")
+	(property "Reference" "R9"
+		(at 24.038 -12.492 -90)
+		(layer "F.SilkS")
+		(uuid "f1314586-de9b-4731-84a4-4fcabc728f81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B100K"
+		(at 9.915 4.7 0)
+		(layer "F.Fab")
+		(uuid "98b489da-f1de-47f5-bbc8-3cdb7d1f0934")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7eba800-47d3-4ab8-b38f-c35d3de094d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29ee90dd-9bc1-43e6-bfff-bd133733e44b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "757074c3-c31b-4c64-8fb3-ef59ad95b3eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.63 -14.078)
+		(end 1.63 4.078)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56faa240-712c-4454-bc5f-722fb636190f")
+	)
+	(fp_line
+		(start 1.63 -14.078)
+		(end 26.5 -14.078)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c089c83-4a63-40f4-ae52-458208746a0a")
+	)
+	(fp_line
+		(start 1.63 4.078)
+		(end 26.5 4.078)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cacd399d-c35d-46b4-8b4c-022bef1859dd")
+	)
+	(fp_line
+		(start 26.5 -14.078)
+		(end 26.5 4.078)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9af6414-8569-4585-ab27-878d6194ec53")
+	)
+	(fp_line
+		(start -1.45 -14.208)
+		(end -1.45 4.208)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91e00e5d-98b0-4700-af61-30375087e04c")
+	)
+	(fp_line
+		(start -1.45 4.208)
+		(end 26.5 4.208)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c106287-fe1d-4f1b-900c-9b0877143291")
+	)
+	(fp_line
+		(start 26.5 -14.208)
+		(end -1.45 -14.208)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b1a51e6-2eee-4aae-92b6-4484c82b70cf")
+	)
+	(fp_line
+		(start 26.5 4.208)
+		(end 26.5 -14.208)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fde78a32-b982-4965-acb5-d77b00a1ed55")
+	)
+	(fp_line
+		(start 1.75 -13.958)
+		(end 1.75 3.958)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf85b644-dad8-409b-9ecc-32b8fed191d9")
+	)
+	(fp_line
+		(start 1.75 3.958)
+		(end 26.5 3.958)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1395158d-6a55-43ca-a12d-ec48893fa814")
+	)
+	(fp_line
+		(start 26.5 -13.958)
+		(end 1.75 -13.958)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7858dac-d62a-43e5-aba0-926632318db7")
+	)
+	(fp_line
+		(start 26.5 -13.958)
+		(end 26.5 3.958)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6dc83ed8-6a47-4136-9ed3-f9ba6593585b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.75 -5 -90)
+		(layer "F.Fab")
+		(uuid "2f8bb8c0-e770-4509-bf83-cc06acf4d06f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "30eb709b-2cad-42f2-a229-3aaf7433633b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be037512-ca17-4b3c-8f13-d0ef4d5dd129")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -10)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6958639-f022-4b3c-a153-494b663add9b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Omeg_PC16BU_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

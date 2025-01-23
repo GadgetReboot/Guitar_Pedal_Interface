@@ -1,0 +1,40 @@
+### Footprint positions - created on 2025-01-22T18:52:30-0500 ###
+### Printed by KiCad version 8.0.7
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                         Package                                                 PosX       PosY       Rot  Side
+G***      LOGO                        pcb_way_logo                                         13.0460    88.7430  180.0000  bottom
+C1        10uF                        CP_Radial_D5.0mm_P2.50mm                             57.8906    61.5276  180.0000  top
+C2        100nF                       C_Disc_D4.7mm_W2.5mm_P5.00mm                         59.2080    67.3170  180.0000  top
+C3        10uF                        CP_Radial_D5.0mm_P2.50mm                             56.2470    74.8620  -90.0000  top
+C4        10uF                        CP_Radial_D5.0mm_P2.50mm                             40.1560    70.9152  -90.0000  top
+D1        LED_Small_ALT               LED_D5.0mm                                           80.4040    46.0610    0.0000  top
+D2        LED_Small_ALT               LED_D5.0mm                                           46.7560    61.0470    0.0000  top
+J1        PJ-644F                     Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal              17.5010    81.2060  180.0000  top
+J2        Conn_01x06                  PinHeader_1x06_P2.54mm_Vertical                      28.0230    95.2500    0.0000  top
+J3        PJ-644F                     Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal              78.1570    97.4360    0.0000  top
+J4        Conn_01x06                  PinHeader_1x06_P2.54mm_Vertical                      68.0760    95.2630    0.0000  top
+J5        Conn_01x03                  PinHeader_1x03_P2.54mm_Vertical                      75.7620    10.6470   90.0000  top
+J6        PJ-644F                     Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal              78.0300    75.2350    0.0000  top
+J7        Conn_01x06                  PinHeader_1x06_P2.54mm_Vertical                      68.1540    73.9270    0.0000  top
+J8        PJ-644F                     Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal              17.7500    58.8972  180.0000  top
+J9        Conn_01x06                  PinHeader_1x06_P2.54mm_Vertical                      28.1000    73.9270    0.0000  top
+J10       Conn_01x03                  PinHeader_1x03_P2.54mm_Vertical                      14.3284    22.8030  -90.0000  top
+J11       Conn_01x03                  PinHeader_1x03_P2.54mm_Vertical                      36.6296    22.6234  -90.0000  top
+J12       Conn_01x03                  PinHeader_1x03_P2.54mm_Vertical                      58.8800    22.5962  -90.0000  top
+J13       Conn_01x03                  PinHeader_1x03_P2.54mm_Vertical                      20.6440    10.4510   90.0000  top
+J14       Conn_01x03                  PinHeader_1x03_P2.54mm_Vertical                      42.7980    10.6090   90.0000  top
+J15       Conn_01x03                  PinHeader_1x03_P2.54mm_Vertical                      63.9580    10.6090   90.0000  top
+J16       Conn_01x04                  PinHeader_1x04_P2.54mm_Vertical                      85.6680    10.7358   90.0000  top
+J17       PJ-202A                     Barrel_Jack_5.5mmODx2.1mmID_PJ-202A                  48.1130    88.0620    0.0000  top
+R1        680r                        R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    89.8020    52.3838  -90.0000  top
+R2        B100K                       Potentiometer_Vimex                                  16.7960    26.6550   90.0000  top
+R3        B100K                       Potentiometer_Vimex                                  39.0560    26.6550   90.0000  top
+R4        B100K                       Potentiometer_Vimex                                  61.3160    26.6550   90.0000  top
+R5        680r                        R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal    40.2540    55.3630   90.0000  top
+SW1       SW_3PDT                     STOMP-SWITCH-3PDT                                    82.0381    31.3877    0.0000  top
+SW2       Adam_Tech_SW-T2-2E-A-A2-M1  Toggle_Sw_SPDT                                       17.1265    10.6565    0.0000  top
+SW3       Adam_Tech_SW-T2-2E-A-A2-M1  Toggle_Sw_SPDT                                       39.3700    10.6565    0.0000  top
+SW4       Adam_Tech_SW-T2-2E-A-A2-M1  Toggle_Sw_SPDT                                       61.3595    10.6565    0.0000  top
+U1        MAX1044                     DIP-8_W7.62mm                                        44.2420    75.1930    0.0000  top
+## End

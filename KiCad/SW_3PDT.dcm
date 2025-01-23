@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SW_3PDT
+D Switch, 3 pole double throw, separate symbols
+K switch 3-pole double-throw 3PDT ON-ON
+F ~
+$ENDCMP
+#
+#End Doc Library
